@@ -16,5 +16,11 @@ public class Student {
 	public void setLastNameString(String lastNameString) {
 		this.lastNameString = lastNameString;
 	}
+	@Override
+	public String toString() {
+		return "Student [nameString=" + nameString + ", lastNameString=" + lastNameString + "]";
+	}
+	
+	
 
 }
